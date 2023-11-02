@@ -1,0 +1,28 @@
+boldText {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+th, td, tr {
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+oddRow {
+    background-color: lightgray;
+}
+
+th {
+    height: 50px;
+    overflow-wrap: break-word;
+}
+
+subTab {
+    width: 50%;
+    margin-left: auto;
+    margin-right: 0%;
+}
