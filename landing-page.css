@@ -212,7 +212,7 @@ a:hover {
     background-repeat: no-repeat;
     background-blend-mode:hard-light;
     background-size: cover;
-    color: #fff;
+    color: #adff2f;
     font-weight: bolder;
     box-shadow: 1px 1px 12px 4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 1px 1px 12px 4px rgba(0,0,0,0.75);
@@ -236,7 +236,6 @@ a:hover {
   .div4 div {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    color: #fff;
     box-shadow: 1px 1px 12px 14px rgba(0,0,0,0.75);
     -webkit-box-shadow: 1px 1px 12px 14px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 1px 12px 14px rgba(0,0,0,0.75);
