@@ -69,14 +69,21 @@ a:hover {
     flex-direction: column;
 }
 
-.leftMenu {
-    object-fit: fill;
+.sidebar {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow: auto;
     background-image: url("images/right-side-img.png");
     /*background-position: fixed;*/
     background-repeat: no-repeat;
     border-radius: 3em;
     height: 100%;
     width: 10%;
+}
+
+.sidebar a {
+    display: block;
 }
 
 .div1, .div2, .div4 {
@@ -90,32 +97,36 @@ a:hover {
     background-image: url("images/spaceship-5570682_1280.jpg");
     background-blend-mode: overlay;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     border: solid 2px #808080;
     box-sizing: border-box;
     height: auto;
+    overflow: auto;
+    align-content: space-around;
+}
+
+.div1 img {
+    max-width: 50%;
+    display: flex;
+    padding: 1em;
+}
+
+.div1 p {
+    max-width: 100%;
+    display: flex;
+    padding: 1em;
 }
 
 @media (max-width: 800px) {
     .div1 {
         flex-direction: column;
     }
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
 }
-
-.div1 img {
-    flex: 50%;
-    display: flex;
-    box-sizing: border-box;
-    max-width: 40%;
-}
-
-.div1 p {
-    flex: 50%;
-    display: flex;
-    box-sizing: border-box;
-}
-
 
 
 .div2 {
@@ -178,3 +189,41 @@ a:hover {
 .div3 div:nth-last-child(3) {
     background-image: url("images/smalldiv4.png");
 }
+
+.div4 {
+    background-image: url("images/laptop.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode:hard-light;
+    background-size: cover;
+    color: #fff;
+    font-weight: bolder;
+    box-shadow: 1px 1px 12px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 12px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 12px 4px rgba(0,0,0,0.75);
+}
+
+.div4 h2 {
+    font-size: 4em;
+  /*  line-height: calc(20px + 20vh);
+     text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+    color: #fccaff; */
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+    animation: blink 12s infinite;
+    -webkit-animation: blink 12s infinite;
+  }
+
+  .div4 div {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    color: #fff;
+    box-shadow: 1px 1px 12px 14px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 12px 14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 12px 14px rgba(0,0,0,0.75);
+    text-align: center;
+    padding: 1em;
+  }
