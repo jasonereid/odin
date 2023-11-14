@@ -210,9 +210,9 @@ a:hover {
     background-image: url("images/laptop.jfif");
     background-position: center;
     background-repeat: no-repeat;
-    background-blend-mode:hard-light;
+    background-blend-mode:exclusion;
     background-size: cover;
-    color: #adff2f;
+    color: #99ff00;
     font-weight: bolder;
     box-shadow: 1px 1px 12px 4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 1px 1px 12px 4px rgba(0,0,0,0.75);
