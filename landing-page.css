@@ -125,6 +125,7 @@ a:hover {
     max-width: 50%;
     display: flex;
     padding: 1em;
+    object-fit: contain;
 }
 
 .div1 p {
@@ -141,6 +142,11 @@ a:hover {
         width: 100%;
         height: auto;
         position: relative;
+    }
+    .mainDiv {
+        margin-left: 0;
+        position: absolute;
+        left: 0;
     }
 }
 
