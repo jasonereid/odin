@@ -6,3 +6,4 @@ The Odin Project
 3. My version of Fizz Buzz https://github.com/jasonereid/odin/blob/main/small-projects/fizzbuzz.js
 4. Basic Caesar Cypher written in Ruby https://github.com/jasonereid/odin/blob/main/small-projects/cypher.rb
 5. Basic Rock paper Scissors in JavaScript using Alerts https://github.com/jasonereid/odin/blob/main/small-projects/rock-paper-scissors.js
+6. Stock picker app https://github.com/jasonereid/odin/blob/main/small-projects/stock_picker.rb
